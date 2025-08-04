@@ -47,7 +47,15 @@ nav {
     list-style: none;
     gap: 2rem;
 }
-
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    border: 4px solid #667eea;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
 .nav-links a {
     text-decoration: none;
     color: #333;
